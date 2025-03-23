@@ -6,6 +6,11 @@ WORKDIR /app
 COPY requirements.txt ./
 
 # Instala las dependencias desde requirements.txt
+RUN pip install joblib
+RUN pip install streamlit
+RUN pip install pandas
+RUN pip install numpy
+RUN pip install scikit-learn
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copia el modelo .sav a la raíz del directorio de trabajo
