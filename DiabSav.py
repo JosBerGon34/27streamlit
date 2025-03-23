@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Cargar el modelo (ruta relativa correcta)
-model = joblib.load("App/SAVDIAB.sav")
+model = joblib.load("SAVDIAB.sav")
 
 # Variables objetivo y predictoras
 target_var = 'Outcome'
