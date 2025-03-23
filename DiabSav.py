@@ -1,8 +1,9 @@
 import streamlit as st
 import joblib 
 import numpy as np
+import sklearn
 
-# Cargar el modelo (ruta relativa correcta)
+# Cargar el modelo (ruta relativa correcta)stre
 model = joblib.load("SAVDIAB.sav")
 
 # Variables objetivo y predictoras
